@@ -1,19 +1,5 @@
-<div class="card p-3 mt-1 shadow">
-  <h2 class="card-title">{{cursos[0].nome}}</h2>
-  <h5 class="cad-subtitle mt-0 text-muted">{{cursos[0].cargaHoraria}} horas</h5>
+<div *ngFor="let curso of cursos" class="card p-3 mt-1 shadow">
+  <h2 class="card-title">{{curso.nome}}</h2>
+  <h5 class="cad-subtitle mt-0 text-muted">{{curso.cargaHoraria}} horas</h5>
 </div>
 
-<div class="card p-3 mt-1 shadow">
-  <h2 class="card-title">{{cursos[1].nome}}</h2>
-  <h5 class="cad-subtitle mt-0 text-muted">{{cursos[1].cargaHoraria}} horas</h5>
-</div>
-
-<div class="card p-3 mt-1 shadow">
-  <h2 class="card-title">{{cursos[2].nome}}</h2>
-  <h5 class="cad-subtitle mt-0 text-muted">{{cursos[2].cargaHoraria}} horas</h5>
-</div>
-
-<div class="card p-3 mt-1 shadow">
-  <h2 class="card-title">{{cursos[3].nome}}</h2>
-  <h5 class="cad-subtitle mt-0 text-muted">{{cursos[3].cargaHoraria}} horas</h5>
-</div>
